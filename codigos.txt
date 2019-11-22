@@ -1,0 +1,14 @@
+django-admin startroject [nome-do-projeto]:
+	Cria um projeto novo.
+
+
+python manage.py
+	runserver - Inicia o servidor (você pode acrescentar um numero para por em uma porta diferente)
+	startapp [nome do app] - Cria um app dentro do server
+	migrate - Aplica as modificações no banco de dados
+	makemigrations [nome] - cria migrações para as modificações
+	sqlmigrate [nome da migração] [SQL] (polls 0001) - cria a tabela, paece
+	check - checa por problemas
+	shell - abre a API, nela você pode rodar os comandos e testar as aplicações
+	createsuperuser - leia né mano
+	
